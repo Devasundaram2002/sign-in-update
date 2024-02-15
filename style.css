@@ -1,0 +1,111 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(back2.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    /* background:linear-gradient(to right,#1638e5,#db123a); */
+}
+.loginform{
+    width: 25rem;
+    height: rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 10px 20px 30px;
+    background: rgba(255,255,255,.06);
+    box-shadow: 0 8px 32px rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    color: white;
+}
+h2{
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.loginform label{
+    display: block;
+}
+.loginform input{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid black;
+    box-shadow:2px;
+    border-radius: 10px;
+    margin: 5px 0px 15px;
+}
+input:focus{
+    background-color:rgb(194, 169, 216);
+    padding: 5px;
+}
+button{
+font-size: 20px;
+box-shadow:2px ;
+border-radius: 10px;
+}
+P{
+    color: rgb(225, 160, 19);
+}
+.create{
+    color:rgb(17, 230, 102)
+}
+.regis{
+    width: 25rem;
+    height: rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 10px 20px 30px;
+    background: rgba(255,255,255,.06);
+    box-shadow: 0 8px 32px rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    color: white;
+}
+h2{
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.regis.textlabel{
+    display:block;
+}
+.regis input{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid black;
+    box-shadow:2px;
+    border-radius: 10px;
+    margin: 5px 0px 1px;
+}
+input:focus{
+    background-color:rgb(194, 169, 216);
+    padding: 5px;
+}
+button{
+    font-size: 20px;
+    box-shadow:2px ;
+    border-radius: 10px;
+    margin: 10px;
+}
+.welcome{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tick{
+   width:200px
+}
+.back{
+    color: white;
+}
